@@ -24,6 +24,26 @@ main{
     width: 717px;
     height: 531px;
     background: #1B212D;
-    margin: 70px auto;
+    margin: 70px auto 20px auto;
     border-radius: 32px;
+}
+.warning-style{
+    display: flex;
+    width: 717px;
+    margin: 0 auto;
+}
+.warning-style img{
+    width: 25px;
+    height: 25px;
+}
+.warning-style p{
+    margin: 0 15px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.style-button{
+    width: 717px;
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
 }
