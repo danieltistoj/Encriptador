@@ -1,8 +1,8 @@
-/*
+
 body{
     background: #35506B;
 }
-*/
+
 main{
     margin: 0 160px;
     display: flex;
@@ -13,7 +13,6 @@ main{
     height: 221px;
     display: flex;
     margin: 0 auto;
-    background: orange;
 }
 .logo-styles img{
     width: 300px;
@@ -27,6 +26,20 @@ main{
     background: #1B212D;
     margin: 70px auto 20px auto;
     border-radius: 32px;
+    display: flex;
+    place-items: center;
+    
+}
+.text-area-style textarea{
+    margin: 20px auto;
+    width: 600px;
+    height: 450px;
+    resize: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    Color: white;
+    font-size: 30px;
 }
 .warning-style{
     display: flex;
@@ -41,12 +54,14 @@ main{
     margin: 0 15px;
     font-family: 'Inter';
     font-style: normal;
+    color: white;
 }
 .style-button{
     width: 717px;
     display: flex;
     margin: 50px auto;
     justify-content: space-between;
+    font-weight: bold;
 }
 .style-button input{
     width: 239px;
