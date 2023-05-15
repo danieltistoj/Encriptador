@@ -5,6 +5,7 @@ body{
 */
 main{
     margin: 0 160px;
+    display: flex;
 }
 
 .logo-styles{
@@ -46,4 +47,29 @@ main{
     display: flex;
     margin: 50px auto;
     justify-content: space-between;
+}
+.style-button input{
+    width: 239px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.encrypt-button{
+    background: #1B212D;
+    color:white;
+}
+.decrypt-button{
+    background: #E0DEDF;
+}
+.style-button input:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+.encrypted-area{
+    width: 400px;
+    height: 898px;
+    background: #1B212D;
+    border-radius: 32px;
+    margin: 69px 0 0 50px;
 }
