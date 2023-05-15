@@ -28,7 +28,7 @@ main{
     border-radius: 32px;
     display: flex;
     place-items: center;
-    
+    box-shadow: 10px 10px 20px black;
 }
 .text-area-style textarea{
     margin: 20px auto;
@@ -69,6 +69,8 @@ main{
     border-radius: 10px;
     cursor: pointer;
     border: none;
+    font-size: 20px;
+    box-shadow: 5px 5px 20px black;
 }
 .encrypt-button{
     background: #1B212D;
@@ -80,6 +82,7 @@ main{
 .style-button input:hover{
     background: darkorange;
     transform: scale(1.2);
+    transition: 400ms;
 }
 .encrypted-area{
     width: 400px;
@@ -89,6 +92,7 @@ main{
     margin: 69px 0 0 50px;
     display: grid;
     place-content: center;
+    box-shadow: 10px 10px 20px black;
 }
 .encrypted-area p{
     text-align: center;
