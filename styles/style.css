@@ -1,3 +1,29 @@
+/*
 body{
     background: #35506B;
+}
+*/
+main{
+    margin: 0 160px;
+}
+
+.logo-styles{
+    width: 717px;
+    height: 221px;
+    display: flex;
+    margin: 0 auto;
+    background: orange;
+}
+.logo-styles img{
+    width: 300px;
+    height: 261px;
+    margin: 0 auto;
+}
+.text-area-style{
+    box-sizing: border-box;
+    width: 717px;
+    height: 531px;
+    background: #1B212D;
+    margin: 70px auto;
+    border-radius: 32px;
 }
