@@ -87,4 +87,14 @@ main{
     background: #1B212D;
     border-radius: 32px;
     margin: 69px 0 0 50px;
+    display: grid;
+    place-content: center;
+}
+.encrypted-area p{
+    text-align: center;
+    color:#495057;
+}
+
+.encrypted-area  #mensaje{
+    font-size: 25px;
 }
