@@ -199,4 +199,15 @@ footer{
     .imagen-no{
         display:none;
     }
+    .social-network{
+        display: grid;
+        place-content: center;
+    }
+    .social-network a{
+        margin: 0 0 20px 0;
+    }
+    .social-network a img{
+        width: 60px;
+        height: 60px;
+    }
 }
