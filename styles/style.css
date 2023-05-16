@@ -106,4 +106,29 @@ footer{
         text-align: center;
         background: #1B212D;
         padding: 40px;
+        width: 100%;
+}
+
+/*Responsive para Tablet*/
+@media  screen and (max-width:865px){
+    main{
+        margin: 0 32px;
+        display: block;
+    }
+    .text-area-style{
+        width: 704px;
+        height: 531px;
+    }
+    .text-area-style textarea{
+        width: 587px;
+        height: 450px;
+    }
+    .encrypted-area{
+        width: 704px;
+        height: 113px;
+        margin: 0 auto 40px auto;
+    }
+    .imagen-no{
+        display:none;
+    }
 }
