@@ -102,3 +102,8 @@ main{
 .encrypted-area  #mensaje{
     font-size: 25px;
 }
+footer{
+        text-align: center;
+        background: #1B212D;
+        padding: 40px;
+}
