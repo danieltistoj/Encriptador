@@ -102,12 +102,6 @@ main{
 .encrypted-area  #mensaje{
     font-size: 25px;
 }
-footer{
-        text-align: center;
-        background: #1B212D;
-        padding: 40px;
-        width: 100%;
-}
 
 /*Responsive para Tablet*/
 @media  screen and (max-width:865px){
@@ -126,6 +120,58 @@ footer{
     .encrypted-area{
         width: 704px;
         height: 113px;
+        margin: 0 auto 40px auto;
+    }
+    .imagen-no{
+        display:none;
+    }
+}
+/*Responsive para celular*/
+@media  screen and (max-width:480px){
+    main{
+        width: 100%;
+        margin: 0;
+        display: block;
+        justify-content: center;
+    }
+    .logo-styles{
+        width: 343px;
+        height: 221px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .logo-styles img{
+        width: 300px;
+        height: 261px;
+        margin: 20px  auto;
+    }
+
+    .text-area-style{
+        width: 343px;
+        height: 400px;
+    }
+    .text-area-style textarea{
+        width: 200px;
+        height: 300px;
+    }
+    .warning-style{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .style-button{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .encrypt-button{
+        margin: 0 auto 30px auto;
+    }
+    .encrypted-area{
+        width: 343px;
+        height: 200px;
         margin: 0 auto 40px auto;
     }
     .imagen-no{
