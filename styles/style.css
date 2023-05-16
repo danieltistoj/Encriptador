@@ -6,6 +6,7 @@ body{
 main{
     margin: 0 160px;
     display: flex;
+    justify-content: center;
 }
 
 .logo-styles{
@@ -102,7 +103,13 @@ main{
 .encrypted-area  #mensaje{
     font-size: 25px;
 }
-
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    background-color: #1B212D;
+    color: white;
+}
 /*Responsive para Tablet*/
 @media  screen and (max-width:865px){
     main{
