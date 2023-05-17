@@ -95,13 +95,40 @@ main{
     place-content: center;
     box-shadow: 10px 10px 20px black;
 }
+.areaLabel{
+    background: orange;
+    margin: auto 30px;
+    color: white;
+    font-size: 25px;
+}
 .encrypted-area p{
+    margin: 20px auto;
     text-align: center;
     color:#495057;
 }
 
 .encrypted-area  #mensaje{
     font-size: 25px;
+}
+.buttonEncrypt{
+    background: orange;
+    margin: auto 30px;
+    display: grid;
+    place-content: center;
+}
+.buttonEncrypt button{
+    width: 239px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    box-shadow: 5px 5px 20px black;
+}
+.buttonEncrypt button:hover{
+    background: darkorange;
+    transform: scale(1.2);
+    transition: 400ms;
 }
 footer{
     width: 100%;
