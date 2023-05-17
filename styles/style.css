@@ -85,18 +85,21 @@ main{
     transform: scale(1.2);
     transition: 400ms;
 }
+/*Area de encriptada*/
 .encrypted-area{
     width: 400px;
-    height: 898px;
+    height: 930px;
+    padding: 0;
     background: #1B212D;
     border-radius: 32px;
-    margin: 69px 0 0 50px;
-    display: grid;
-    place-content: center;
+    margin: 69px auto auto 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-shadow: 10px 10px 20px black;
 }
 .areaLabel{
-    background: orange;
+    visibility: hidden;
     margin: auto 30px;
     color: white;
     font-size: 25px;
@@ -111,7 +114,7 @@ main{
     font-size: 25px;
 }
 .buttonEncrypt{
-    background: orange;
+    visibility: hidden;
     margin: auto 30px;
     display: grid;
     place-content: center;
@@ -168,7 +171,7 @@ footer{
     }
     .encrypted-area{
         width: 704px;
-        height: 113px;
+        height: 170px;
         margin: 0 auto 40px auto;
     }
     .imagen-no{
