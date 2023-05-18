@@ -9,7 +9,7 @@
  </div>
  <br>
  <div  align="center">
- <a  target="_blank"><img height="25px" src="https://img.shields.io/github/stars/daniletistoj/Encriptador.svg" target="_blank"></a>  
+ <a  target="_blank"><img height="25px" src="https://img.shields.io/github/stars/danieltistoj/Encriptador.svg" target="_blank"></a>  
  <a  target="_blank"><img height="25px" src="https://img.shields.io/github/watchers/danieltistoj/Encriptador.svg" target="_blank"></a>
 </div>
 <div align="center" >
