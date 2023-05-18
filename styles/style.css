@@ -181,6 +181,9 @@ footer{
         height: auto;
         margin: 0 auto 40px auto;
     }
+    .buttonEncrypt{
+        margin: 40px 30px 15px 30px;
+    }
     .areaLabel{
         width: 600px;
     }
@@ -237,6 +240,9 @@ footer{
         /*height: 200px;*/
         height: auto;
         margin: 0 auto 40px auto;
+    }
+    .buttonEncrypt{
+        margin: 40px 30px 15px 30px;
     }
     .areaLabel{
         width: 300px;
