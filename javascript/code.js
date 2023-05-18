@@ -71,3 +71,14 @@ document.getElementById("buttonDecrypt").addEventListener("click", function(){
         moveEncrypt(labelEncrypt)
     }
 })
+//evento del boton copiar 
+document.getElementById("copyButton").addEventListener("click",function(){
+    var textLabel = document.getElementById("myLabelEncrypt").textContent
+    navigator.clipboard.writeText(textLabel)
+    .then(function() {
+        console.log("Texto copiado al portapapeles: " + textLabel);
+    })
+    .catch(function(error) {
+        console.error("Error al copiar texto: ", error);
+    });
+})
