@@ -107,7 +107,7 @@ main{
     margin: 20px 30px 0 30px;
     color: white;
     font-size: 25px;
-    word-wrap: break-word /* Permitir el salto de palabras */
+    word-wrap: break-word; /* Permitir el salto de palabras */
 }
 
 .encrypted-area p{
