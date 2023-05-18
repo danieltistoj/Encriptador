@@ -39,6 +39,9 @@
 <p>Cuando tenga el texto encriptado, tiene la posibilidad de desencriptarlo, tiene un botón en la parte inferior del panel derecho para guardar el texto encriptado en el portapapeles, para ingresarlo nuevamente al área de texto, luego debe de darle click al botón de desencriptar, el resultado igualmente saldrá en el panel lateral derecho.</p>
 <div align="center" >
  <h1>Vistas del programa</h1>
+  <p>Puedes visitar el diseño del proyecto en figma dando click al icono</p>
+  <a   href="https://www.figma.com/file/8DrDhClu49cg6gbfEbkFVd/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica-(Copy)?type=design&node-id=0%3A1&t=fo8ToCSJmfSKApDd-1"><img  height="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" /></a>
+ 
  </div>
  <div align="center">
   <h1>Desktop</h1>
