@@ -44,8 +44,7 @@ document.getElementById("buttonEncrypt").addEventListener("click", function(){
         buttonCopy.style.visibility  = "visible"
 
         var imageArea = document.getElementById("idAreaImageEncrypt")
-
-        imageArea.style.visibility = "hidden"
+        imageArea.style.display = "none"
     }
 })
 //Evento del boton desencriptar

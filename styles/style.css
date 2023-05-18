@@ -99,13 +99,17 @@ main{
     align-items: center;
     justify-content: space-between;
     box-shadow: 10px 10px 20px black;
+    
 }
 .areaLabel{
     visibility: hidden;
-    margin: auto 30px;
+    width: 300px;
+    margin: 20px 30px 0 30px;
     color: white;
     font-size: 25px;
+    word-wrap: break-word /* Permitir el salto de palabras */
 }
+
 .encrypted-area p{
     margin: 20px auto;
     text-align: center;
@@ -117,7 +121,7 @@ main{
 }
 .buttonEncrypt{
     visibility: hidden;
-    margin: auto 30px;
+    margin: 0 30px 15px 30px;
     display: grid;
     place-content: center;
 }
@@ -173,9 +177,14 @@ footer{
     }
     .encrypted-area{
         width: 704px;
-        height: 170px;
+        /*height: 170px;*/
+        height: auto;
         margin: 0 auto 40px auto;
     }
+    .areaLabel{
+        width: 600px;
+    }
+
     .imagen-no{
         display:none;
     }
@@ -225,8 +234,12 @@ footer{
     }
     .encrypted-area{
         width: 343px;
-        height: 200px;
+        /*height: 200px;*/
+        height: auto;
         margin: 0 auto 40px auto;
+    }
+    .areaLabel{
+        width: 300px;
     }
     .imagen-no{
         display:none;
