@@ -27,7 +27,7 @@ function decrypt(text){
     /*al colocarlo entre las diamonales y poner la g al final indicamos que se aplique a 
     todas las subcademas similare
     */
-    return text.replace("ai","a")
+    return text.replace(/ai/g,"a")
     .replace(/enter/g,"e")
     .replace(/imes/g,"i")
     .replace(/ober/g,"o")
