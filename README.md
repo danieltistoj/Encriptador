@@ -51,3 +51,7 @@
  <a><img  height="700px" width="200px" src="https://github.com/danieltistoj/Encriptador/assets/42653664/d7ef70f3-9151-4b15-a033-9eb736008c7c"/></a>
   <a><img height="700px" width="150px" src = "https://github.com/danieltistoj/Encriptador/assets/42653664/079710ac-030d-4f44-9aa8-ed967e94d668" /></a>
   </div>
+  <div align="center" >
+ <h1>Demostración del programa</h1>
+ </div>
+ <div align ="center"><img height = "350em" src="https://github.com/danieltistoj/Encriptador/assets/42653664/5b58fd22-79bd-4f44-aea1-b5f59b58c87d"/></div>
