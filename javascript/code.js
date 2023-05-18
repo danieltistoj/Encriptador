@@ -32,7 +32,20 @@ document.getElementById("buttonEncrypt").addEventListener("click", function(){
     if(textareaContent == ""){
         alert("Debe de escribir algo")
     }else{
-        console.log(encrypt(textareaContent))
+        //obtenemos la etiqueta del label con un id 
+        var labelEncrypt = document.getElementById("myLabelEncrypt")
+        //le agregamos al contenido el mensaje cifrado 
+        labelEncrypt.textContent = encrypt(textareaContent)
+        //hacemos el label visible 
+        labelEncrypt.style.visibility = "visible"
+
+        //obtenemos la equiteta donde esta el boton copiar y la hacemos visible 
+        var buttonCopy = document.getElementById("idAreButtonCopy")
+        buttonCopy.style.visibility  = "visible"
+
+        var imageArea = document.getElementById("idAreaImageEncrypt")
+
+        imageArea.style.visibility = "hidden"
     }
 })
 //Evento del boton desencriptar
